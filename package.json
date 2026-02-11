@@ -1,0 +1,24 @@
+{
+  "name": "javascript-recursion",
+  "version": "1.0.0",
+  "description": "This is a set of exercises for learning Recursion in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melio0504/javascript-recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/melio0504/javascript-recursion/issues"
+  },
+  "homepage": "https://github.com/melio0504/javascript-recursion#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
