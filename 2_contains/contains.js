@@ -1,4 +1,4 @@
-const contains = function(obj, targetValue) {
+export default function contains(obj, targetValue) {
   // Recursive Base
   if (typeof obj !== 'object' || obj === null ) {
     return Object.is(obj, targetValue);
@@ -22,6 +22,3 @@ const contains = function(obj, targetValue) {
 
   return false;
 };
-  
-// Do not edit below this line
-module.exports = contains;

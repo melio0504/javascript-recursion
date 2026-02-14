@@ -1,4 +1,4 @@
-const contains = require("./contains");
+import contains from './contains';
 
 describe("contains", () => {
   const meaningOfLifeArray = [42];

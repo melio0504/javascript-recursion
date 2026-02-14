@@ -1,4 +1,4 @@
-const factorial = function(n) {
+export default function factorial(n) {
   // Do not accept the following
   // Non-positive integer || Float number
   if (n < 0 || !Number.isInteger(n)) { return };
@@ -8,7 +8,4 @@ const factorial = function(n) {
 
   // Recursive Case
   return n * factorial(n - 1);
-};
-
-// Do not edit below this line
-module.exports = factorial;
+}

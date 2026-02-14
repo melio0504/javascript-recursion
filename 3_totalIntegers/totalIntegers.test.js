@@ -1,4 +1,4 @@
-const totalIntegers = require('./totalIntegers');
+import totalIntegers from "./totalIntegers";
 
 describe('totalIntegers', () => {
   test('Counts all integers in a simple array of only integers', () => {

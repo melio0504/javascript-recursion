@@ -1,4 +1,4 @@
-const permutations = function (arr, index = 0, results = []) {
+export default function permutations(arr, index = 0, results = []) {
   // Recursive Base
   if (index == arr.length) {
     // Cloning array inside results
@@ -18,6 +18,3 @@ const permutations = function (arr, index = 0, results = []) {
 
   return results;
 };
-
-// Do not edit below this line
-module.exports = permutations;

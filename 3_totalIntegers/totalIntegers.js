@@ -1,6 +1,6 @@
 const isObject = (value) => typeof value === 'object' && value !== null;
 
-const totalIntegers = function(arr) {  
+export default function totalIntegers(arr) {  
   
   if (!isObject(arr)) { return };
 
@@ -19,6 +19,3 @@ const totalIntegers = function(arr) {
 
   return total;
 };
-  
-// Do not edit below this line
-module.exports = totalIntegers;

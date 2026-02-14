@@ -1,4 +1,4 @@
-const permutations = require("./permutations");
+import permutations from "./permutations";
 
 describe("permutations", () => {
   test("1 possible permutation for a set containing 0 numbers", () => {

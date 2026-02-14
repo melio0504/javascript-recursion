@@ -1,4 +1,4 @@
-const pascal = require('./pascal');
+import pascal from "./pascal";
 
 describe('pascal', () => {
   test('Gets the first row of pascal', () => {

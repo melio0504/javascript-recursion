@@ -1,4 +1,4 @@
-const pascal = function (n) {
+export default function pascal(n) {
   const currentRow = [1];
   
   // Recursive Base
@@ -14,6 +14,3 @@ const pascal = function (n) {
 
   return currentRow;
 }
-
-// Do not edit below this line
-module.exports = pascal;
